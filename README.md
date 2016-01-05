@@ -3,7 +3,7 @@
 
 ## 目录文件
 ```php
-QueryList.class.php             // PHP采集类（如不更新IP地址段，可不用）
+QueryList.class.php             // PHP采集类
 ```
 ```php
 phpQuery                        // QueryList类所需文件目录
