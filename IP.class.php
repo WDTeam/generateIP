@@ -1,14 +1,10 @@
 <?php
 /**
  * Class IP
- * 随机生成国内IPV4地址
- *
- * 国内省份名称缩写对应：
- * BJ 北京 GD 广东 SD 山东 ZJ 浙江 JS 江苏 SH 上海 LN 辽宁
- * SC 四川 HA 河南 HB 湖北 FJ 福建 HN 湖南 HE 河北 CQ 重庆
- * SX 山西 JX 江西 SN 陕西 AH 安徽 HL 黑龙江 GX 广西 JL 吉林
- * YN 云南 TJ 天津 NM 内蒙 XJ 新疆 GS 甘肃 GZ 贵州 HI 海南
- * NX 宁夏 QH 青海 XZ 西藏
+ * @Project: generateIP
+ * @Description: 根据省份名（中文）随机生成IPV4地址
+ * @Author: xyl 289844098@qq.com
+ * @Update: 2016.1.5
  */
 class IP {
 
