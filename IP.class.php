@@ -3,7 +3,7 @@
  * Class IP
  * @Project: generateIP
  * @Description: 根据省份名（中文）随机生成IPV4地址
- * @Author: xyl 289844098@qq.com
+ * @Author: xiayulei@gmail.com
  * @Update: 2016.1.5
  */
 class IP {
