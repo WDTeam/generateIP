@@ -20,23 +20,22 @@ ip_segment.php                  // 采集生成的IPV4地址段
 ### 引入IP类
 ```php
 require 'IP.class.php';
-$ip = new IP();
 ```
 ### 方法使用
 
 ##### 不指定省份名，将随机生成国内IPV4地址
 ```php
-$ip_address = $ip->generateIP();
+$ip_address = IP::generate();
 ```
 
 ##### 指定省份名生成对应省份IPV4地址
 ```php
-$ip_address = $ip->generateIP('安徽');
+$ip_address = IP::generate('安徽');
 ```
 
 ##### 更新各省IPV4地址段
 ```php
-$ip->updateIPSegment();
+IP::update();
 ```
 
 文件包含省份：
