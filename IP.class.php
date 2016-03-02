@@ -4,7 +4,7 @@
  * @Project: generateIP
  * @Description: 根据省份名（中文）随机生成IPV4地址
  * @Author: xiayulei@gmail.com
- * @Update: 2016.1.5
+ * @Update: 2016.3.2
  */
 class IP {
 
@@ -42,7 +42,10 @@ class IP {
         }
         $path = str_replace('\\','/',__DIR__);
         $file = $path.'/ip_segment.php';
-        $this->_write($file,$ip_segment);
+        $res = $this->_write($file,$ip_segment);
+        if($res){
+        	echo 'Update OK!';
+        }
     }
 
     /**
