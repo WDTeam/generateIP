@@ -1,0 +1,21 @@
+{
+    "name": "wdteam/yii2-generateIP",
+    "description": "YII2 generateIP ",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","yii2 for generateIP"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "winds@dlf5.com",
+            "email": "winds@dlf5.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wdteam\\generateIP\\": ""
+        }
+    }
+}
