@@ -1,6 +1,6 @@
 {
-    "name": "wdteam/yii2-generateIP",
-    "description": "YII2 generateIP ",
+    "name": "wdteam/yii2-generate-ip",
+    "description": "YII2 yii2-generate-ip ",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","yii2 for generateIP"],
     "license": "MIT",
